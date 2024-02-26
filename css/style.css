@@ -4,7 +4,7 @@ body {
   background-size: 250% 250%;
   animation: gradient 30s ease infinite;
   height: 100vh;
-  font-family: "Arial Black", "Microsoft JhengHei UI", serif;
+  font-family: "Arial Black", Arial, serif;
   color: whitesmoke;
   margin-top: 60px;
   overflow-y: scroll;
@@ -109,4 +109,34 @@ body::-webkit-scrollbar-thumb {
 
 .typewrite {
   color: crimson;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  header {
+    padding: 10px;
+  }
+
+  nav {
+    flex-direction: column;
+  }
+
+  nav a {
+    margin: 10px 0;
+  }
+
+  .content {
+    margin: 10px 0;
+  }
+
+  .content h2 {
+    font-size: 1.5em;
+  }
 }
