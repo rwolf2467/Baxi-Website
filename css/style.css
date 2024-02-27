@@ -116,7 +116,10 @@ body::-webkit-scrollbar-thumb {
   margin: 0 auto;
   padding: 0 20px;
 }
-
+a{
+  color: crimson;
+  font-size: larger;
+}
 
 
 @media only screen and (max-width: 600px) {
